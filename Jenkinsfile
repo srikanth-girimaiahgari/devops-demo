@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/srikanth-girimaiahgari/devops-demo.git'
+                sh 'git clone "https://github.com/srikanth-girimaiahgari/devops-demo.git"'
             }
         }
 
